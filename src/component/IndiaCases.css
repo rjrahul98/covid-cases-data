@@ -1,0 +1,29 @@
+.boxContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.boxContainer > div{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100px;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid aliceblue;
+    border-radius: 8px;
+}
+.active{
+    background: rgba(21, 100, 255, 0.5);
+}
+.discharged{
+    background: #4E944F;
+}
+.deceased{
+    background: rgba(255, 23, 0, 0.5);
+}
+.stateData{
+    margin: 2rem;
+}
